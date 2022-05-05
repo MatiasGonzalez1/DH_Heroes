@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 100%;
+}
+main.index{
+    display: inline;
+    width: 50%;
+    position: absolute;
+    text-align:center;
+    align-items: center;
+    top: 10%;
+    color: black;
+    border: 10px solid #000000;
+    transform: translate(50%, 15%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: silver;
+    opacity: 0.7;
+    padding: 10px;
+}
+main.index h1{
+    color: black;
+    padding-bottom: 30px;
+}
+img{
+    display: block;
+    width: 100%;
+    opacity: 0.8;
+}
+p.index{
+    padding-left: 30%;
+    padding-right: 30%;
+    padding: 20px;
+}
+
+main ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+main ul li a:hover{
+    color: rgb(54, 4, 134);
+}
+
+/* PERFILES */
+
+div.container{
+    overflow: hidden;
+    padding-top:30px;
+    
+}
+div.imagen{
+    
+    width: 30%;
+    float: left;
+    
+}
+div.detail{
+    padding-left: 5%;
+    width: 65%;
+    float: left;
+}
+
+button{
+    background: white;
+    margin: 20px 0px 0px;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: silver;
+}
